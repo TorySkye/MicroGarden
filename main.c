@@ -130,7 +130,7 @@ int main(void)
 	PORTB = 0b00000001;				/* Set PortB as "0" */
 	DDRA = 0x00;					/* Set PortA as input */
 
-	lcd_gotoxy(0,0);				/* Set cursor position on the 1. row (row0) and 1. character */
+	lcd_gotoxy(0,0);				/* Set cursor to 1. row (row0) and 1. character */
 	lcd_puts("Welcome");
 	_delay_ms(1000);
 	
